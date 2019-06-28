@@ -126,7 +126,7 @@ df1
 </div>
 
 
-##  Display results of demographic filtering
+##  Results of demographic filtering
 ```python
 top_rated_items[['title', 'num_rating', 'avg_rating', 'score']].head()
 pop_items[['title', 'num_orders']].head()
@@ -220,11 +220,11 @@ pop_items[['title', 'num_orders']].head()
 
 ## Content Based Filtering
 
-A bit more personalised recommendation. We will be analysing the past orders of the user and suggesting back those items which are similar.
+A bit more personalised recommendation. We will analyse the past orders of the user and suggest back those items which are similar.
 
-Also, since each person has a "home canteen", the user should be notified any new items included in the menu by the vendor.
+Also, since each person has a "home canteen", the user should be notified of any new items included in the menu by the vendor.
 
-We will be using <b>Count Vectorizer</b> from <b>Scikit-Learn</b> to find similarity between items based on their title, category and tags. To bring all these properties of each item together we create a <b>"soup"</b> of tags. <b>"Soup"</b> is a processed string correspnding to each item, formed using constituent words of tags, tile and category.
+We will be use <b>Count Vectorizer</b> from <b>Scikit-Learn</b> to find similarity between items based on their title, category and tags. To bring all these properties of each item together, we create a <b>"soup"</b> of tags. <b>"Soup"</b> is a processed string correspnding to each item, formed using the constituents of tags, tile and category.
 
 <div>
 <table class="dataframe">
@@ -531,6 +531,6 @@ get_popular_items(pop_items, df1, columns).head(3)
 
 
 
-These are just simple algorithms to make personalised and even general recommendations to users. We can easily use collaborative filtering or incorporate neural networks to make our prediction even better. However, these are more computationally intensive methods. Kinda overkill, IMO! Let's build that app first!
+These are just simple algorithms to make personalised & general recommendations to users. We can easily use collaborative filtering or incorporate neural networks to make our prediction even better. However, these are more computationally intensive methods. Kinda overkill, IMO! Let's build that app first, then move on to other features!
 
 #### Star the repository and send in your PRs if you think the engine needs any improvement or help me implement some more advanced features.
