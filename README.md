@@ -25,20 +25,8 @@ df1
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
+<table border="1" class="dataframe" style="height:3px;">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -141,20 +129,6 @@ pop_items[['title', 'num_orders']].head()
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-
 <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -197,19 +171,6 @@ pop_items[['title', 'num_orders']].head()
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -259,19 +220,6 @@ Also, since each person has a "home canteen", the user should be notified any ne
 We will be using <b>Count Vectorizer</b> from <b>Scikit-Learn</b> to find similarity between items based on their title, category and tags. To bring all these properties of each item together we create a <b>"soup"</b> of tags. <b>"Soup"</b> is a processed string correspnding to each item, formed using constituent words of tags, tile and category.
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -359,19 +307,6 @@ df1.loc[get_recommendations(title="Paneer Tikka")]
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -437,19 +372,6 @@ get_popular_items(pop_items, df1, columns).head(3)
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -492,19 +414,6 @@ get_popular_items(pop_items, df1, columns).head(3)
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -533,19 +442,7 @@ get_popular_items(pop_items, df1, columns).head(3)
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -588,19 +485,7 @@ get_popular_items(pop_items, df1, columns).head(3)
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -641,4 +526,4 @@ get_popular_items(pop_items, df1, columns).head(3)
 
 These are just simple algorithms to make personalised and even general recommendations to users. We can easily use collaborative filtering or incorporate neural networks to make our prediction even better. However, these are more computationally intensive methods. Kinda overkill, IMO! Let's build that app first!
 
-#### Star the repository and send in your PRs if you think the engine needs any improvement or helping me implement some more advanced features.
+#### Star the repository and send in your PRs if you think the engine needs any improvement or help me implement some more advanced features.
