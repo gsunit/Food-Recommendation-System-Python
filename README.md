@@ -14,7 +14,7 @@ Also, <b>I would be open-sourcing the app</b> so that any campus can implement a
 
 ## Demographic Filtering
 
-Suggesting the users items that were well-received and are popular among the users, in general. Most trending items and items with the best rating rise to the top and get shortlisted for recommendation.
+Suggesting the items that are well-received and popular among the users. Most trending items and items with the best rating rise to the top and get shortlisted for recommendation.
 
 
 ```python
