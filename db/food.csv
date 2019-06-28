@@ -1,0 +1,7 @@
+food_id,title,canteen_id,price,num_orders,category,avg_rating,num_rating,tags
+1,Lala Maggi,1,30,35,maggi,3.9,10,"veg, spicy"
+2,Cheese Maggi,1,25,40,maggi,3.8,15,"veg"
+3,Masala Maggi,1,25,10,maggi,3,10,"veg, spicy"
+4,Veg Maggi,1,30,25,maggi,2.5,5,"veg, healthy"
+5,Paneer Tikka,1,60,50,Punjabi,4.6,30,"veg, healthy"
+6,Chicken Tikka,1,80,40,Punjabi,4.2,28,"nonveg, healthy, spicy"
