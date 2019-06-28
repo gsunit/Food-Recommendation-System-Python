@@ -1,9 +1,16 @@
 # Food-Recmmendation-System-Python
 
 
-This is the Recommendation Engine that will be used in building the <b>Lunchbox App</b>, a platform for ordering food and keeping track of user expenditure and canteen sales. Regardless of whether or not this is actually implemented in all the canteens of <b>IIT Kanpur</b>, given the potential for frauds & cyber-attacks, I will complete the platform.
+This is the Recommendation Engine that will be used in building the <b>Lunchbox App</b>, a platform for ordering food and keeping track of user expenditure and canteen sales. Regardless of whether or not this is actually implemented in all the canteens of <b>IIT Kanpur</b> (given the potential for frauds & cyber-attacks) I will still complete the platform.
 
 Also, <b>I would be open-sourcing the app</b> so that any campus can implement a <b>cash-less & integrated system of ordering food</b> across their whole campus. After all, what good are IITs for if our canteens still keep track of student accounts on paper registers!
+
+## Build instructions
+
+- ```git clone https://github.com/gsunit/Food-Recommendation-System-Pyhton.git```
+- Run the Jupyter Notebook `src.ipynb`
+
+
 
 ## Demographic Filtering
 
